@@ -3,8 +3,8 @@
 @TestAutomationDemo
 Feature: Create Account
 
-#  Background:
-#    Given are on the application's login page
+  Background:
+    Given are on the application's login page
 
   @login
   Scenario: Happy Path

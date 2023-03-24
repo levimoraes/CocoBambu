@@ -1,5 +1,8 @@
 # Automation Test
 
+**Youtube Video Execution**
+- https://youtu.be/IRIGqjHtaeg
+
 **Technologies**
 
 - Java
@@ -7,14 +10,14 @@
 - Junit
 - Cucumber
 - Maven
-- Allure Reports
 
 **Pre requirements to run the project**
 
-- Chrome  or Firefox browses
+- Chrome
 - Java JDK 11
 - Maven
-- Allure commandline
 
-**Project execution**
-- Open terminal and run the command: **mvn test**
+**Project documentation**
+
+- Scripts are in src/
+- Features documentation are in test-cases/

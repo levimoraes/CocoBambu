@@ -95,4 +95,9 @@ public class LoginStep {
         String email = Utils.generateRadomMail();
         login.typeEmail(email);
     }
+
+    @Given("are on the application's login page")
+    public void areOnTheApplicationSLoginPage() {
+        login.perfilBtn();
+    }
 }

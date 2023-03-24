@@ -11,7 +11,7 @@ import io.cucumber.java.Scenario;
 public class Hooks {
 	@Before
 	public void setUp(Scenario scenario) throws Exception {
-		Selenide.open("https://app.cocobambu.com/entrar");
+		Selenide.open("https://app.cocobambu.com/delivery");
 		
 	}
 

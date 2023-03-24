@@ -34,6 +34,8 @@ public class LoginPage {
 
     private SelenideElement invalidMsg = $(By.xpath("//*[@class=\"error-message ng-star-inserted\"]"));
     private SelenideElement fecharBtn = $(By.xpath("//div"));
+    private SelenideElement perfilBtn = $(By.xpath("//span[.=\"Perfil\"]"));
+    private SelenideElement entrarBtn = $(By.xpath("//span[.=\"Entrar\"]"));
     public void createUserlink() {
         linkCreateUser.click();
     }
@@ -78,5 +80,10 @@ public class LoginPage {
     public void invalidMsg(String message) {
         Assert.assertEquals(message, invalidMsg.shouldBe(visible).getText());
 
+    }
+
+    public void perfilBtn() {
+        perfilBtn.shouldBe(visible).click();
+        entrarBtn.shouldBe(visible).click();
     }
 }
